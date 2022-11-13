@@ -81,8 +81,8 @@ two.bind("update", function () {
     lineObject.stroke = "white";
 
     const minDistance = 0.01;
-    const maxDepth = 1000;
-    const maxStep = 30;
+    const maxDepth = 2000;
+    const maxStep = 1000;
     let step = 0;
     let depth = 0;
 
